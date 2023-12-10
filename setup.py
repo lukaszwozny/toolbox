@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setuptools.setup(
     name="toolbox",
-    version="0.2.0",
+    version="0.2.1",
     author="Lukasz Wozny",
     author_email="kontakt@lukaszwozny.com",
     description="Helpful functions for apps",
@@ -22,6 +22,7 @@ setuptools.setup(
         "toolbox.managers",
         "toolbox.managers.static",
         "toolbox.managers.static.sounds",
+        "toolbox.better_print",
     ],
     install_requires=required,
     package_data={
