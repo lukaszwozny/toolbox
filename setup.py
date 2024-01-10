@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setuptools.setup(
     name="toolbox",
-    version="0.2.1",
+    version="0.2.2",
     author="Lukasz Wozny",
     author_email="kontakt@lukaszwozny.com",
     description="Helpful functions for apps",
